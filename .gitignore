@@ -1,0 +1,17 @@
+# dataset and generated files
+data/
+results/
+*.csv
+*.parquet
+*.zip
+baselines_by_year.png
+kaggle.json
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
