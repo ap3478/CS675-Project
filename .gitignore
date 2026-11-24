@@ -2,9 +2,10 @@
 data/
 results/
 *.csv
+*.csv.gz
 *.parquet
 *.zip
-baselines_by_year.png
+/*.png
 kaggle.json
 
 # python / jupyter
