@@ -19,8 +19,11 @@ and anything reliably above that is real skill.
 | Random | 0.4993 | −0.0021 | 7/22 | — |
 
 Small but consistent skill in every out-of-sample year 2005–2026; trading costs (0.10% per dollar traded,
-about 63% weekly turnover) take most of the profit. The full run with all outputs is in
-[`runs/ds675_part1_kaggle_run_2026-11-23.ipynb`](runs/ds675_part1_kaggle_run_2026-11-23.ipynb).
+about 63% weekly turnover) take most of the profit.
+
+- **Full write-up of every analysis:** [`docs/part1_results.md`](docs/part1_results.md)
+  (also as [PDF](docs/part1_results.pdf)), with charts.
+- **The run with all outputs:** [`runs/ds675_part1_kaggle_run_2026-11-23.ipynb`](runs/ds675_part1_kaggle_run_2026-11-23.ipynb).
 
 ## What's in this repo
 
@@ -29,6 +32,7 @@ about 63% weekly turnover) take most of the profit. The full run with all output
 | `ds675_part1.ipynb` | The main notebook (73 cells, no outputs): every analysis below |
 | `ds675_part1.py` | The same code as a plain Python script, paired with the notebook via jupytext |
 | `runs/ds675_part1_kaggle_run_2026-11-23.ipynb` | The notebook as run on Kaggle on the real data, **with all outputs** |
+| `docs/part1_results.md` / `.pdf` | Results report: what each analysis does, its results and what they mean (charts in `docs/figures/`) |
 | `tests/test_no_lookahead.py` | Checks that features use no future data, labels are correct and folds don't overlap |
 | `tests/make_synthetic.py` | Builds a fake dataset with the same columns and quirks, for testing without the real file |
 | `requirements.txt` | Python packages |
